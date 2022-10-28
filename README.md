@@ -8,4 +8,4 @@ I found interpretations of agent parameters in human psychological traits, namel
 To compute the "depression" and "anxiety" scores, I positioned the trained agents in certain defined maze positions and computed their Q-Values.
 I created an "auto-curricula" to train agents on increasing difficulty mazes, and see if we could treat the "depression" and "anxiety" of those agents.
 
-The interest was to draw parralels with how to automate games for humans to combat these diseases.
+The interest was to draw parallels with how to automate games for humans to combat these diseases.
