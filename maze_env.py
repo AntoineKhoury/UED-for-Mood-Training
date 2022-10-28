@@ -1,3 +1,4 @@
+# This files contains the Maze Environement, which is used to generate action-reward pairs.
 #%%
 from numpy.core.fromnumeric import shape
 import pandas as pd
