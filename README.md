@@ -1,6 +1,31 @@
-# UED-for-Mood-Training
-This code represents the implementation of the Unsupervised Environment Design paradigm for Mood Training. During my Master's thesis, I conducted a comprehensive investigation into the confluence of Psychology and Multi-agent Machine Learning, with a particular focus on addressing the maze-solving problem.
+# 🧠 Unsupervised Environment Design for Mood Training
 
-Within this context, I discerned correlations between agent parameters and human psychological traits, notably associating "depression" with diminished interest in low-reward tasks and "anxiety" with an elevated perception of loss aversion. To quantify "depression" and "anxiety" scores, I strategically positioned the trained agents at predefined locations within mazes and computed their corresponding Q-Values.
+This repository houses the codebase for the implementation of the Unsupervised Environment Design paradigm, a groundbreaking approach used during my Master's thesis to intertwine the worlds of Psychology and Multi-agent Machine Learning.
 
-To facilitate learning, I devised an "auto-curricula" strategy to progressively train agents on mazes of escalating complexity, all in pursuit of mitigating the "depression" and "anxiety" levels exhibited by these agents. The overarching objective was to identify parallels that could inform the automation of therapeutic games for humans combating these mental health challenges.
+
+## 🎯 Project Aim
+
+Through this exploration, I delved deep into the maze-solving challenge and discovered significant correlations:
+
+- **Depression**: An agent showing reduced enthusiasm for low-reward tasks mirrored symptoms of human depression.
+- **Anxiety**: Agents exhibiting a heightened sense of loss aversion drew parallels with human anxiety traits.
+
+## 🔍 Methodology
+
+To objectively measure "depression" and "anxiety" scores among agents:
+1. I placed trained agents strategically across various maze locations.
+2. Analyzed the corresponding Q-Values for each position.
+
+## 🚀 Auto-Curricula for Enhanced Learning
+
+Recognizing the implications, I introduced an "auto-curricula" strategy. This systematic approach:
+- Began with simpler mazes.
+- Gradually increased the complexity, training agents to adapt.
+- Aimed to decrease exhibited "depression" and "anxiety" levels in agents.
+
+## 🌟 The Ultimate Goal
+
+Beyond just a machine learning exploration, this endeavor sought to unearth insights with real-world implications. The hope is to leverage these findings in creating automated therapeutic games — a beacon of support for individuals grappling with mental health challenges.
+
+
+
